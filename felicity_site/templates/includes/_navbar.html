@@ -1,0 +1,25 @@
+<header>
+    <nav>
+        <!-- Title -->
+        <div id="title">
+            <a href="{{ url_for('home') }}">
+                <img src="{{ url_for('static', filename=nav_image) }}">
+            </a>
+        </div>
+
+        <!-- Mobile Burger -->
+        <div id="burger">
+            <div id="burger-1"></div>
+            <div id="burger-2"></div>
+            <div id="burger-3"></div>
+        </div>
+
+        <!-- Nav Links -->
+        <ul id="nav-links" class="noselect">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('prints') }}">Prints</a></li>
+            <li><a href="{{ url_for('illustrations') }}">Illustrations</a></li>
+            <li><a href="{{ url_for('shop') }}">Shop</a></li>
+        </ul>
+    </nav>
+</header>

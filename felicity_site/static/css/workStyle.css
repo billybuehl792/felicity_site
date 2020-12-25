@@ -1,0 +1,134 @@
+#viewer {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--f_white, white);
+    display: none;
+}
+.viewer-exit {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 25px;
+    cursor: pointer;
+    z-index: 10;
+}
+.viewer-exit img {
+    width: 25px;
+}
+.viewer-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.viewer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    background-color: var(--f_pink, pink);
+}
+.viewer-text h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+    margin: 10px 0px;
+}
+.viewer-text h5 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 200;
+}
+.important {
+    font-weight: 500;
+}
+.viewer-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+.viewer-image img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 25px;
+}
+
+.grid {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 70px;
+}
+.grid-sizer {
+    width: 25%;
+}
+.grid-item {
+    width: 25%;
+    cursor: pointer;
+}
+.grid-featured {
+    cursor: pointer;
+    width: 50%;
+}
+.item-text {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 5px;
+    background-color: var(--f_white, white);
+    box-shadow: 0px 5px var(--f_pink, pink);
+}
+.item-text p {
+    margin: 10px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    color: var(--f_black, black);
+}
+.grid-item img {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+    .viewer-container {
+        flex-direction: column;
+    }
+    .viewer-text {
+        height: 30%;
+        width: 100%;
+    }
+    .viewer-text h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .viewer-text h5 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .viewer-image {
+        height: 70%;
+    }
+    .viewer-image img {
+        padding: 0;
+    }
+    .grid-item {
+        width: 100%;
+    }
+}

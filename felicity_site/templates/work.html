@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block head %}
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='css/workStyle.css') }}">
+{% endblock %}
+
+{% block body %}
+    <!-- Image Viewer -->
+    <div id="viewer">
+        <div class="viewer-exit">
+            <img src="{{ url_for('static', filename='img/x.png') }}" alt="x">
+        </div>
+        <div class="viewer-container">
+            <div class="viewer-image">
+                <img>
+            </div>
+            <div class="viewer-text"></div>
+        </div>
+
+    </div>
+
+    <!-- thumbnail grid -->
+    <div class="grid">
+        <!-- <div class="grid-sizer"></div> -->
+        {% for item in images %}
+            {% if item.get('featured') %}
+                <div class="grid-item grid-featured" onclick='viewer("{{ item.get('title') }}", "{{ url_for('static', filename=item.get('image')) }}", {{ item.get('info')|tojson }})'>
+            {% else %}
+                <div class="grid-item" onclick='viewer("{{ item.get('title') }}", "{{ url_for('static', filename=item.get('image')) }}", {{ item.get('info')|tojson }})'>
+            {% endif %}
+                    <div class="item-text">
+                    <p>{{ item.get('title') }}</p>
+                </div>
+                <img src="{{ url_for('static', filename=item.get('thumbnail')) }}" alt="{{ item.get('title') }}">
+            </div>
+        {% endfor %}
+    </div>
+    <script type='text/javascript' src="{{ url_for('static', filename='work.js') }}"></script>
+{% endblock %}

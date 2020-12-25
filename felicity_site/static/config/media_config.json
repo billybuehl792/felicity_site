@@ -1,0 +1,464 @@
+{
+    "nav-image": "img/nav_image.png",
+    "home-image": "img/felicity_gunn.png",
+    "about-text": "I'm a visual artist currently located in Athens, Ohio finishing a degree in Fine Arts with a focus in Screenprinting. I have a background in design and illustration. This site is a showcase of some of my work!",
+    "prints": [
+        {
+            "title": "Just Down the Way",
+            "thumbnail": "pictures/thumbnail/justdowntheway_thumbnail.jpg",
+            "image": "pictures/scaled/justdowntheway_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "etching"],
+                ["Dimensions", "6in x 6in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Time",
+            "thumbnail": "pictures/thumbnail/time_thumbnail.jpg",
+            "image": "pictures/scaled/time_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "monotype and screenprint"],
+                ["Dimensions", "12in x 17in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Prospect",
+            "thumbnail": "pictures/thumbnail/prospect_thumbnail.jpg",
+            "image": "pictures/scaled/prospect_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "monotype and letterpress"],
+                ["Dimensions", "30in x 22in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Prospect Zine",
+            "thumbnail": "pictures/thumbnail/prospectzine_thumbnail.jpg",
+            "image": "pictures/scaled/prospectzine_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress, monotype, and screenprint"],
+                ["Dimensions", "7in x 5in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {    
+            "title": "Prospect Zine Detail",
+             "thumbnail": "pictures/thumbnail/prospectzine2_thumbnail.jpg",
+            "image": "pictures/scaled/prospectzine2_scaled.jpg",
+            "featured": false,
+             "info": [
+                ["Medium", "letterpress, monotype, and screenprint"],
+                ["Dimensions", "7in x 5in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+             ]
+        },
+        {    
+            "title": "Prospect Zine Detail",
+             "thumbnail": "pictures/thumbnail/prospectzine3_thumbnail.jpg",
+            "image": "pictures/scaled/prospectzine3_scaled.jpg",
+            "featured": false,
+             "info": [
+                ["Medium", "letterpress, monotype, and screenprint"],
+                ["Dimensions", "7in x 5in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+             ]
+        },
+        {
+            "title": "Two",
+            "thumbnail": "pictures/thumbnail/two_thumbnail.jpg",
+            "image": "pictures/scaled/two_scaled.jpg",
+            "featured": true,
+            "info": [
+                ["Medium", "screenprint on handmade paper"],
+                ["Dimensions", "9in x 15in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Walfart",
+            "thumbnail": "pictures/thumbnail/walfart_thumbnail.jpg",
+            "image": "pictures/scaled/walfart_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "screenprint"],
+                ["Dimensions", "14in x 22in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Prioritize Happiness",
+            "thumbnail": "pictures/thumbnail/prioritizehappiness_thumbnail.jpg",
+            "image": "pictures/scaled/prioritizehappiness_sscaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "screen and relief print"],
+                ["Dimensions", "17in x 12in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Wasted Time",
+            "thumbnail": "pictures/thumbnail/wastedtime_thumbnail.jpg",
+            "image": "pictures/scaled/wastedtime_scaled.jpg",
+            "featured": true,
+            "info": [
+                ["Medium", "screenprint"],
+                ["Dimensions", "8in x 16in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Letterform Investigation",
+            "thumbnail": "pictures/thumbnail/letterform1_thumbnail.jpg",
+            "image": "pictures/scaled/letterform1_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Letterform Investigation",
+            "thumbnail": "pictures/thumbnail/letterform2_thumbnail.jpg",
+            "image": "pictures/scaled/letterform2_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Letterform Investigation",
+            "thumbnail": "pictures/thumbnail/letterform3_thumbnail.jpg",
+            "image": "pictures/scaled/letterform3_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Worry Tomorrow",
+            "thumbnail": "pictures/thumbnail/worrytomorrowposters_thumbnail.jpg",
+            "image": "pictures/scaled/worrytomorrowposters_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Worry Tomorrow Zine",
+            "thumbnail": "pictures/thumbnail/worrytomorrow_thumbnail.jpg",
+            "image": "pictures/scaled/worrytomorrow_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "cymk print on vellum"],
+                ["Dimensions", false],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Type Studies",
+            "thumbnail": "pictures/thumbnail/lettersymbols_thumbnail.jpg",
+            "image": "pictures/scaled/lettersymbols_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Type Studies",
+            "thumbnail": "pictures/thumbnail/lettersymbols1_thumbnail.jpg",
+            "image": "pictures/scaled/lettersymbols1_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Type Studies",
+            "thumbnail": "pictures/thumbnail/lettersymbols2_thumbnail.jpg",
+            "image": "pictures/scaled/lettersymbols2_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Type Studies",
+            "thumbnail": "pictures/thumbnail/lettersymbols3_thumbnail.jpg",
+            "image": "pictures/scaled/lettersymbols3_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        }
+    ],
+    "illustrations": [
+        {
+            "title": "Fern",
+            "thumbnail": "pictures/thumbnail/fern_thumbnail.jpg",
+            "image": "pictures/scaled/fern_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "11in x 14in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Indulge",
+            "thumbnail": "pictures/thumbnail/indulge_thumbnail.jpg",
+            "image": "pictures/scaled/indulge_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "30in x 22in"],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+             ]
+        },
+        {
+            "title": "Home Again",
+            "thumbnail": "pictures/thumbnail/homeagain_thumbnail.jpg",
+            "image": "pictures/scaled/homeagain_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink on handmade paper"],
+                ["Dimensions", "14in x 18in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Down the Street",
+            "thumbnail": "pictures/thumbnail/downthestreet_thumbnail.jpg",
+            "image": "pictures/scaled/downthestreet_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "8in x 12in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Franklin",
+            "thumbnail": "pictures/thumbnail/franklin1_thumbnail.jpg",
+            "image": "pictures/scaled/franklin1_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "8in x 12in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Kentwell",
+            "thumbnail": "pictures/thumbnail/kentwell_thumbnail.jpg",
+            "image": "pictures/scaled/kentwell_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "8in x 12in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "High Street",
+            "thumbnail": "pictures/thumbnail/highst_thumbnail.jpg",
+            "image": "pictures/scaled/highst_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "8in x 12in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Study of a Rembrandt Etching",
+            "thumbnail": "pictures/thumbnail/rembrandtstudy_thumbnail.jpg",
+            "image": "pictures/scaled/rembrandtstudy_scaled.jpg",
+            "featured": true,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "7in x 21in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Northern White Rhino",
+            "thumbnail": "pictures/thumbnail/white_rhino_thumbnail.jpg",
+            "image": "pictures/scaled/white_rhino_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "18in x 22in"],
+                ["Year", 2018],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Pause",
+            "thumbnail": "pictures/thumbnail/pause_thumbnail.jpg",
+            "image": "pictures/scaled/pause_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "Digital Illustration"],
+                ["Dimensions", "6in x 4in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Embedded",
+            "thumbnail": "pictures/thumbnail/embedded2_thumbnail.jpg",
+            "image": "pictures/scaled/embedded2_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "digital illustration"],
+                ["Dimensions", false],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Letterform Investigation",
+            "thumbnail": "pictures/thumbnail/letterform3_thumbnail.jpg",
+            "image": "pictures/scaled/letterform3_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Mudslide",
+            "thumbnail": "pictures/thumbnail/mudslide_thumbnail.jpg",
+            "image": "pictures/scaled/mudslide_scaled.jpg",
+            "featured": true,
+            "info": [
+                ["Medium", "marker"],
+                ["Dimensions", "18in x 24in"],
+                ["Year", 2018],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Perspective",
+            "thumbnail": "pictures/thumbnail/perspective_thumbnail.jpg",
+            "image": "pictures/scaled/perspective_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", false],
+                ["Year", 2018],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Stars and Stripes",
+            "thumbnail": "pictures/thumbnail/starsandstripes_thumbnail.jpg",
+            "image": "pictures/scaled/starsandstripes_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", false],
+                ["Year", 2018],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Ramblin",
+            "thumbnail": "pictures/thumbnail/ramblin_thumbnail.jpg",
+            "image": "pictures/scaled/ramblin_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", false],
+                ["Year", 2018],
+                ["Description", false],
+                ["Link", false]
+            ]
+        }
+    ]
+}
