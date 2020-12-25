@@ -1,5 +1,6 @@
 
 import json
+import os
 from flask import Flask, url_for
 
 # from flask_sqlalchemy import SQLAlchemy
@@ -8,8 +9,7 @@ from flask import Flask, url_for
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'velocity_facility_faculty2020'
 
-config_file = 'felicity_site/static/config/media_config.json'
-print(config_file)
+config_file = os.path.join(app.root_path, 'static/config', 'media_config.json')
 with open(config_file, 'r') as f:
     media_config = json.load(f)
 
