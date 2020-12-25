@@ -29,6 +29,7 @@ $(window).on("load", function() {
 
 // image viewer
 function viewer(title, image, info) {
+    $("#viewer").find(".viewer-image img").attr("src", "");
     textItems = "";
     textItems += "<h3>" + title + "</h3>";
     for (item in info) {
