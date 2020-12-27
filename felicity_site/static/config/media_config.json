@@ -1,7 +1,7 @@
 {
     "nav-image": "img/nav_image.png",
     "home-image": "img/felicity_gunn.png",
-    "about-text": "I'm a visual artist currently located in Athens, Ohio finishing a degree in Fine Arts with a focus in Screenprinting. I have a background in design and illustration. This site is a showcase of some of my work!",
+    "about-text": "I'm a printmaker living and working in Athens, Ohio as I finish my BFA at Ohio University. I have a background in design and illustration. This site is a showcase of some of my work!",
     "prints": [
         {
             "title": "Just Down the Way",
@@ -110,7 +110,7 @@
         {
             "title": "Prioritize Happiness",
             "thumbnail": "pictures/thumbnail/prioritizehappiness_thumbnail.jpg",
-            "image": "pictures/scaled/prioritizehappiness_sscaled.jpg",
+            "image": "pictures/scaled/prioritizehappiness_scaled.jpg",
             "featured": false,
             "info": [
                 ["Medium", "screen and relief print"],
@@ -179,6 +179,19 @@
             "featured": false,
             "info": [
                 ["Medium", "letterpress"],
+                ["Dimensions", false],
+                ["Year", 2019],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
+            "title": "Worry Tomorrow Zine",
+            "thumbnail": "pictures/thumbnail/worrytomorrow1_thumbnail.jpg",
+            "image": "pictures/scaled/worrytomorrow1_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "cymk print on vellum"],
                 ["Dimensions", false],
                 ["Year", 2019],
                 ["Description", false],
@@ -305,6 +318,19 @@
             ]
         },
         {
+            "title": "Mill",
+            "thumbnail": "pictures/thumbnail/mill_thumbnail.jpg",
+            "image": "pictures/scaled/mill_scaled.jpg",
+            "featured": false,
+            "info": [
+                ["Medium", "pen and ink"],
+                ["Dimensions", "8in x 12in"],
+                ["Year", 2020],
+                ["Description", false],
+                ["Link", false]
+            ]
+        },
+        {
             "title": "Franklin",
             "thumbnail": "pictures/thumbnail/franklin1_thumbnail.jpg",
             "image": "pictures/scaled/franklin1_scaled.jpg",
@@ -391,19 +417,6 @@
                 ["Medium", "digital illustration"],
                 ["Dimensions", false],
                 ["Year", 2020],
-                ["Description", false],
-                ["Link", false]
-            ]
-        },
-        {
-            "title": "Letterform Investigation",
-            "thumbnail": "pictures/thumbnail/letterform3_thumbnail.jpg",
-            "image": "pictures/scaled/letterform3_scaled.jpg",
-            "featured": false,
-            "info": [
-                ["Medium", "letterpress"],
-                ["Dimensions", false],
-                ["Year", 2019],
                 ["Description", false],
                 ["Link", false]
             ]
